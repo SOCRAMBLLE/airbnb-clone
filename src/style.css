@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  top: 0;
+  height: 81px;
+  width: 100%;
+  box-shadow: 0 2px 10px -2px gray;
+}
+
+.nav--logo {
+  height: 27px;
+  margin-left: 2rem;
+}

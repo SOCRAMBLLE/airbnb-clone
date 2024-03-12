@@ -8,14 +8,12 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center;
-  top: 0;
-  height: 81px;
+  height: 70px;
   width: 100%;
-  box-shadow: 0 2px 10px -2px gray;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
 }
 
 .nav--logo {
-  height: 27px;
-  margin-left: 2rem;
+  max-width: 100px;
 }

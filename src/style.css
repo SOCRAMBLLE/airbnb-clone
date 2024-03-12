@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -16,4 +17,35 @@ body {
 
 .nav--logo {
   max-width: 100px;
+}
+
+.header--container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+}
+
+.header--img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.header--title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 39.600000858307px;
+  color: #000000;
+  margin-top: 2rem;
+  margin-bottom: 15px;
+}
+
+.header--text {
+  width: 334.6px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 17.60000038147px;
+  color: #222222;
+  margin-top: 0;
 }

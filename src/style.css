@@ -5,6 +5,13 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  width: 100svw;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 0.75rem;
+  font-weight: normal;
 }
 
 .navbar {
@@ -20,7 +27,6 @@ body {
 }
 
 .header--container {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   padding: 36px;
@@ -32,7 +38,7 @@ body {
 }
 
 .header--title {
-  font-size: 36px;
+  font-size: 2.2rem;
   font-weight: bold;
   text-align: left;
   line-height: 39.600000858307px;
@@ -43,9 +49,66 @@ body {
 
 .header--text {
   width: 334.6px;
-  font-size: 16px;
+  font-size: 0.75rem;
   text-align: left;
   line-height: 17.60000038147px;
   color: #222222;
   margin-top: 0;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  margin: 36px;
+}
+
+.card--status {
+  position: absolute;
+  font-size: 0.6rem;
+  top: 0;
+  margin: 7px;
+  padding: 0.2em 0.4rem;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.card--photo {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--review {
+  font-size: 0.75rem;
+  line-height: 13.200000286102px;
+  color: #222222;
+  margin: 0.4rem 0 0.2rem;
+}
+
+.card--review > img {
+  width: 14px;
+  margin-right: 2px;
+}
+
+.card--review > small {
+  font-size: 0.75rem;
+  line-height: 13.200000286102px;
+  color: #918e9b;
+}
+
+.card--text {
+  margin: 0.2rem 0;
+  font-size: 0.75rem;
+  text-align: left;
+  line-height: 13.200000286102px;
+  color: #222222;
+}
+
+.card--price {
+  margin: 0.2rem 0;
+  font-size: 0.75rem;
+  text-align: left;
+  line-height: 13.200000286102px;
+  color: #222222;
 }

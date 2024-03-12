@@ -3,11 +3,13 @@ import starIcon from "../images/star.png";
 export default function Card(props) {
   return (
     <div className="card">
-      <p className="card--status">{props.status}</p>
+      <p className="card--status">
+        {props.status == 0 ? "SOLD OUT" : "BUY NOW"}
+      </p>
       <img src={props.photo} className="card--photo" alt="Main card image." />
       <p className="card--review">
         <img src={starIcon} alt="Star icon." />
-        {props.rating}{" "}
+        {parseFloat(props.rating).toFixed(1)}{" "}
         <small>
           ({props.numberOfReviews}) - {props.country}
         </small>

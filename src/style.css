@@ -60,8 +60,7 @@ h2 {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 175px;
-  margin: 36px;
+  width: 185px;
 }
 
 .card--status {
@@ -111,4 +110,12 @@ h2 {
   text-align: left;
   line-height: 13.200000286102px;
   color: #222222;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 0 36px;
 }

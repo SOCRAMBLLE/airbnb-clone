@@ -10,16 +10,7 @@ export default function App() {
       <Header />
       <div className="cards-container">
         {CardsData.map((data) => (
-          <Card
-            key={data.id}
-            status={data.openSpots}
-            photo={`./images/${data.coverImg}`}
-            rating={data.stats.rating}
-            numberOfReviews={data.stats.reviewCount}
-            country={data.location}
-            cardTitle={data.title}
-            price={data.price}
-          />
+          <Card key={data.id} {...data} />
         ))}
       </div>
     </>
